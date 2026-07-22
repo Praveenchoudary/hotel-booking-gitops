@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: hotel-booking-service
+
+spec:
+  selector:
+    app: hotel-booking
+
+  type: LoadBalancer
+
+  ports:
+  - port: 80
+    targetPort: 5000
