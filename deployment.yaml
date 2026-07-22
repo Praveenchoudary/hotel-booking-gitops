@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hotel-booking
-        image: praveen22233/hotel-booking:11
+        image: praveen22233/hotel-booking:12
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
